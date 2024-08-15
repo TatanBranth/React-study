@@ -1,5 +1,6 @@
+import React from 'react';
 import './app.css'
-import { TwitterCard } from './TwitterCard'
+import { TwitterCard } from "./TwitterCard"
 
 export function App () {
     const users = [
