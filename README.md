@@ -1,4 +1,14 @@
 # React-study
-a bonch of little projects to study react framework 
+_a bunch of little projects to study react framework
+those projects are made following Midudev teaching_
 
-those projects are made following Midudev teaching
+## Projects
+
+### 01 Twitter card
+
+Project with an example of a twitter card component to experiment with
+components and elements of React.
+
+### 02 Tic tac toe
+
+Game to learn how mix elements and components of React and using states too
