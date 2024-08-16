@@ -12,3 +12,7 @@ components and elements of React.
 ### 02 Tic tac toe
 
 Game to learn how mix elements and components of React and using states too
+
+### 03 mouse follower
+
+Little app to add effect over mouse cursor using react hooks, useState and useEffect
