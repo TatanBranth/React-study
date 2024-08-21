@@ -16,3 +16,7 @@ Game to learn how mix elements and components of React and using states too
 ### 03 mouse follower
 
 Little app to add effect over mouse cursor using react hooks, useState and useEffect
+
+### 04 technical test
+
+test oriented to a junior to handle two APIs and work with useEffect on asynchronous functions
