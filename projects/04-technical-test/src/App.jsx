@@ -12,7 +12,7 @@ export function App () {
         <main>
             <h1>app Cats</h1>
             <button onClick={refreshFact}>new fact</button>
-            {fact && <h2>Fact: {fact}</h2>}
+            {fact && <p>Fact: {fact}</p>}
             {urlImage && <img src={`${urlImage}`} alt={`image of a cat from cats API using first 2 words of this fact: ${fact} `} />}
         </main>
     )

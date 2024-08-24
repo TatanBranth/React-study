@@ -21,3 +21,5 @@ Milestones:
 2. blob responses type
 3. useEffect
 4. useState
+5. custom hooks
+6. playwright simple test
