@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css'
 import { useEffect, useState } from 'react';
 
@@ -8,11 +7,9 @@ function App() {
   const [position, setPosition] = useState({x: 'x', y: 'y'});
 
   useEffect(()=>{
-    console.log(`effect`);
-
     const handleMove = (event) => {
       const { clientY, clientX } = event;
-      console.log(`handle move ${clientX}, ${clientY}`);
+      /* console.log(`handle move ${clientX}, ${clientY}`); */
       setPosition({x: clientX, y: clientY});
     }
 
@@ -41,7 +38,7 @@ function App() {
       }}>
 
       </div>
-      <button onClick={()=> setEnabled(!enabled)}>{enabled?'Activate':'Desactivate'} follow button</button>
+      <button onClick={()=> setEnabled(!enabled)}> {enabled?'Activate':'Desactivate'} follow button</button>
     </main>
   )
 }
